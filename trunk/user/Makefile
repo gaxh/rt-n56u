@@ -170,6 +170,7 @@ dir_$(CONFIG_FIRMWARE_INCLUDE_MINIEAP)			+= minieap
 dir_$(CONFIG_FIRMWARE_INCLUDE_NJIT_CLIENT)		+= njit-client
 dir_$(CONFIG_FIRMWARE_INCLUDE_MENTOHUST)		+= mentohust
 dir_$(CONFIG_FIRMWARE_INCLUDE_xTUN) 			+= xTun
+dir_$(CONFIG_FIRMWARE_INCLUDE_ZEROTIER)			+= zerotier
 ifeq ($(CONFIG_FIRMWARE_INCLUDE_WING),y)
 dir_y 			+= wing
 dir_y 			+= ipt2socks
